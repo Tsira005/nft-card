@@ -1,0 +1,137 @@
+body {
+  background-color: #0d192c;
+  margin-top: 140px;
+}
+.main {
+  width: 350px;
+  height: 596px;
+  margin: auto;
+  background: #15263f;
+  box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.0952917);
+  border-radius: 15px;
+  padding: 24px;
+}
+h1 {
+  color: white;
+  font-size: 22px;
+  font-family: outfit;
+  font-style: normal;
+  font-weight: 600px;
+  line-height: 28px;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.blue {
+  color: #8bacd9;
+  font-size: 18px;
+  font-family: outfit;
+  font-style: normal;
+  font-weight: 300px;
+  line-height: 26px;
+}
+.icons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.one {
+  display: flex;
+  color: cyan;
+  gap: 8px;
+  align-items: center;
+}
+.two {
+  display: flex;
+  color: #3387d6;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  font-style: normal;
+  font-family: outfit;
+}
+.line {
+  background-color: #2e405a;
+  border-color: #2e405a;
+}
+.avatar {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  font-size: 16px;
+  font-family: outfit;
+  font-style: normal;
+  font-weight: 400px;
+}
+
+.p-1 {
+  color: #8bacd9;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  font-style: normal;
+  font-family: outfit;
+}
+.p-2 {
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  font-style: normal;
+  font-family: outfit;
+}
+h1:hover {
+  cursor: pointer;
+  color: #2e405a;
+}
+.p-2:hover {
+  color: #8bacd9;
+  cursor: pointer;
+}
+.image-cursor:hover {
+  background-color: #216eda;
+  cursor: pointer;
+}
+.img-1 {
+  width: 33px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+.eye {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  transform: translate(-50%, -50%);
+}
+.image-cursor {
+  position: relative;
+}
+.equilibrium {
+  position: relative;
+  border-radius: 8px;
+}
+.equilibrium:after {
+  content: " ";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: aqua;
+  border-radius: 8px;
+  opacity: 0;
+}
+.equilibrium:hover:after {
+  opacity: 0.5;
+  cursor: pointer;
+}
+.equilibrium:hover .eye {
+  display: block;
+}
